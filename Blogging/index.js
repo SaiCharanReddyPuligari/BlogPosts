@@ -49,5 +49,5 @@ app.use("/user", userRoute);
 app.use("/blog", blogRoute);
 
 app.listen(PORT, () => {
-  console.log(`${PORT} has start, upload the files`);
+  console.log(`${PORT} has started, upload the files`);
 });
